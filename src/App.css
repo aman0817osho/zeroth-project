@@ -1,5 +1,8 @@
 .App {
+  background-color: antiquewhite;
   text-align: center;
+  font-family: "athelas";
+  color: rgb(0, 0, 0);
 }
 
 .App-logo {
@@ -35,4 +38,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.submit-form:hover {
+  cursor: pointer;
+}
+.pp {
+  /* display: grid; */
+  display: block;
+      margin: 0 auto;
+      width: 40%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.pp img {
+  
+  width: 100%;
 }
